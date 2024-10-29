@@ -3,7 +3,7 @@
 # Variables
 IMAGE_URL='https://dietpi.com/downloads/images/DietPi_Proxmox-x86_64-Bookworm.qcow2.xz'
 # RAM=2048
-RAM=4096
+RAM=16384
 CORES=2
 VMNAME='DietPi-VM'
 # Get a list of storage to display as a selection list
