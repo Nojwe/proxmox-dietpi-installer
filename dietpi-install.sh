@@ -116,7 +116,7 @@ fi
 
 # Install `qemu-guest-agent` and other programs into the virtual machine image
 echo -e "\nInstalling 'qemu-guest-agent' and other programs into the VM image.\n"
-virt-customize -a "${IMAGE_NAME}.qcow2" \
+virt-customize -a "${IMAGE_NAME}" \
   --install qemu-guest-agent \
   --install exa \
   --install ripgrep \
